@@ -49,7 +49,7 @@ public:
 //		return *this;
 //	}
 
-	Array& operator=(const Array& a){
+	Array& operator=(const Array& a){          /// operatingg overload write we 
 		cout << "Copy Assingment Operator..." << endl;
 		if(this != &a){
 			delete[] data;  // to deleter current data first then point out to new memory location there store you data otherwise dangling pointer issue
@@ -79,7 +79,7 @@ int main() {
 
 	Array a2 = a;	// copy constructor
 
-	a1 = a;		// copy assignment operator=
+	a1 = a;		// copy assignment operator= or
 
 //	a1 = a1;
 
