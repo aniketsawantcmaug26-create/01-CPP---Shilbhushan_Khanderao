@@ -5,7 +5,7 @@
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
-
+// Rule of three 
 #include <iostream>
 using namespace std;
 
