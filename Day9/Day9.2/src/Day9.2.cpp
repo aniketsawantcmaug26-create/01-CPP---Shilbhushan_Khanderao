@@ -29,7 +29,7 @@ int main() {
 
 //	int &d = 10; //error: cannot bind non-const lvalue reference of type 'int&' to an rvalue of type 'int'
 
-	int&& d = 10;	// no error
+	int&& d = 10;	// no error 
 
 //	& : reference/ alias to another object : lvalue
 //	&& : reference of object to taken : rvalue/lvalue
