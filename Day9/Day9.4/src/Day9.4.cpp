@@ -36,7 +36,7 @@ public:
 //		return total;
 //	}
 
-	string getName() const {
+	string getName() const { // constant member funtion we make after writing const keyword in after parentiss 
 		accessNameCount++;
 		return name;
 	}
