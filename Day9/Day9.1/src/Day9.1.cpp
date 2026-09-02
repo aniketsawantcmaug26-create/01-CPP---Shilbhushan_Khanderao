@@ -52,7 +52,7 @@ public:
 	Array& operator=(const Array& a){
 		cout << "Copy Assingment Operator..." << endl;
 		if(this != &a){
-			delete[] data;
+			delete[] data;  // to deleter current data first then point out to new memory location there store you data otherwise dangling pointer issue
 
 			size = a.size;
 			data = new int[size];
