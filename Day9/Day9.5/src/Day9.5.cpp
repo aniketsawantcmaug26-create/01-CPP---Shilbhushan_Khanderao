@@ -39,7 +39,7 @@ public:
 	}
 
 	//post
-	Complex operator++(int){
+	Complex operator++(int){ // just write int  in parentissis your are compiler will know this is post increment 
 		Complex temp = *this;
 		++real;
 		++imag;
