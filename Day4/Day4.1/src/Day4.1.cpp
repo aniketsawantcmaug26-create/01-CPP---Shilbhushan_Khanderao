@@ -15,7 +15,7 @@ int main(){
 
 	int *p = &a;		// ptr to a
 
-	int **pp = &p;
+	int **pp = &p;      // Pointer to pointer 
 
 	**pp = 20;
 
@@ -66,7 +66,7 @@ int main1() {
 
 	int *ptrArr = arr;		// pointer to arr
 	int &ref = arr[0];
-//	int *ptrArr = &arr;		// error : 'int (*)[3]' to 'int*' // firs point 
+//	int *ptrArr = &arr;		// error : 'int (*)[3]' to 'int*' // firs point => Pointer with array  and pointer arithmatic 
 
 //	cout << ptrArr << endl;
 //	cout << arr << endl;
