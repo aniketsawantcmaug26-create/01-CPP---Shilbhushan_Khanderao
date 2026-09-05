@@ -66,7 +66,7 @@ int main1() {
 
 	int *ptrArr = arr;		// pointer to arr
 	int &ref = arr[0];
-//	int *ptrArr = &arr;		// error : 'int (*)[3]' to 'int*'
+//	int *ptrArr = &arr;		// error : 'int (*)[3]' to 'int*' // firs point 
 
 //	cout << ptrArr << endl;
 //	cout << arr << endl;
