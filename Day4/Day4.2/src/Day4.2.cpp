@@ -35,7 +35,7 @@ int main() {
 //	*ptr3 = b;	// not allowed
 //	ptr3 = &b;	// not allowed
 
-//	cout << &a << endl;
+//	cout << &a << endl;      // first section 
 //	cout << ptr << endl;
 
 //	ptr = &b; // not allowed
