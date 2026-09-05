@@ -62,7 +62,7 @@ int main1() {
 	cout << a << endl;
 	cout << r << endl;
 
-	int arr[]{10,20,30};
+	int arr[]{10,20,30};  // second point 
 
 	int *ptrArr = arr;		// pointer to arr
 	int &ref = arr[0];
